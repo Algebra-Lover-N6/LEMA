@@ -180,3 +180,17 @@ footer{background:#04101f;color:#c0ccda;padding:70px 0 24px}
   .footer-grid{grid-template-columns:1fr}.footer-grid>div:first-child{grid-column:auto}
   .footer-bottom{flex-direction:column}
 }
+
+.talks-section{background:#fff}
+.talk-list{display:grid;gap:24px;margin-top:44px}
+.talk-card{display:grid;grid-template-columns:72px 1fr;gap:22px;padding:30px;border:1px solid var(--line);border-radius:22px;background:#fff;box-shadow:0 14px 36px rgba(8,24,48,.06)}
+.talk-number{width:56px;height:56px;border-radius:16px;display:grid;place-items:center;background:linear-gradient(135deg,var(--navy),var(--blue));color:#fff;font-family:"Space Grotesk";font-weight:800;font-size:1.05rem}
+.talk-speaker{display:inline-block;color:var(--blue);font-weight:800;text-transform:uppercase;letter-spacing:.08em;font-size:.76rem}
+.talk-body h3{font-family:"Space Grotesk";font-size:clamp(1.35rem,2vw,2rem);line-height:1.15;margin:8px 0 14px;color:var(--navy)}
+.talk-body p{color:var(--muted);margin:0 0 12px}
+.talk-card-pending{border-style:dashed;background:var(--paper)}
+.speaker-card p{margin:6px 0 0;color:var(--muted);font-size:.84rem;line-height:1.35}
+@media (max-width:640px){
+  .talk-card{grid-template-columns:1fr;padding:22px}
+  .talk-number{width:48px;height:48px}
+}
