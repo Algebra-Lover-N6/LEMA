@@ -194,3 +194,14 @@ footer{background:#04101f;color:#c0ccda;padding:70px 0 24px}
   .talk-card{grid-template-columns:1fr;padding:22px}
   .talk-number{width:48px;height:48px}
 }
+
+.speaker-photo{
+  width:64px;
+  height:64px;
+  flex:0 0 64px;
+  object-fit:cover;
+  object-position:center;
+  border-radius:50%;
+  border:3px solid #eaf5ff;
+  box-shadow:0 8px 18px rgba(8,24,48,.12);
+}
